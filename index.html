@@ -5,79 +5,82 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/f7120aa6d4.js" crossorigin="anonymous"></script>
     </head>
-    <body class="signinpage">
-    <div class="container">
-        <div class="createanaccountbox">
-            <div class="donthave"> Don't have an account ? </div>
-            <a href="#" class="link signup-link">
-                <button class="createanaccountbutton">Create an account</button>
-            </a>
-        </div>
-        <hr>
-        <div class="signinbox">
-            <div class="signintext">Sign In</div>
-            <br>
-            <div class="signinemailaddress">
-                <label for="email">Email address</label><br><br>
-                <input type="email" id="signinemail"  class="ee" placeholder="   example@abc.com">
-            </div>
-            <br>
-            <div class="signinpassword">
-                <div class="pw"> 
-                    <div for="password" class="passw">Password </div>
-                    <div class="forgotpassword">Forgot password?</div> 
-                </div><br>
-                <input type="password" id="signinpassword"  class="pp"  placeholder="   Enter your password">
-                <br>
-                <button class="signinbutton">Sign In</button>
-            </div>
-        </div>
-        <hr>
-        <div class="copyrightbox">
-            <div class="copy"> 
-                <div class="cc"><i class="fa-regular fa-copyright" style="color: #a7a0a0;"></i></div> 
-                <div class="cri"> Copyright 2022</div>
-            </div>
-            <div class="followicon">
-                 <div class="follow"> Follow us </div>
-                 <div class="icon"> <i class="fa-brands fa-facebook" style="color: #00A025;"></i></div>
-                 <div class="icon"><i class="fa-brands fa-twitter" style="color: #00A025;"></i></div>
-                 <div class="icon"><i class="fa-brands fa-instagram" style="color: #00A025;"></i></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="outline2">
-        <form class="style2">
+    <body >
+         
+        <div class="signinpage" id="siin">
             <div class="container">
-                <div class="createanaccounttext">Create an account</div>
-                <div class="box">
-                    <div class="box1">
-                        <div class="name">Name</div><br>
-                        <input type="text" class="eee" placeholder="   Enter your name"><br><br><br>
-                        <div class="name">Date of birth</div><br>
-                        <input type="date" class="eee" style="color: gray; font-size: 16px;"  ><br><br><br>
-                        <div class="name">Email</div><br>
-                        <input type="email" class="eee" placeholder="   example@abc.com"><br><br><br>
-                    </div>
-                    <div class="box1">
-                        <div class="name">Password</div><br>
-                        <input type="password" class="eee" placeholder="   Enter your password"><br><br><br>
-                        <div class="name">Confirm Password</div><br>
-                        <input type="password" class="eee" placeholder="   Re-enter your password"><br><br><br>
-                    </div>
-                </div>
-                <div class="regrs">
-                    <div class="b1"> <button class="regbutton">Register</button></div>
-                    <div class="ortext">or</div>
-                    <a href="#" class="link signin-link">
-                        <div class="b1"> <button class="signinbutton2">Sign In</button></div>
+                <div class="createanaccountbox">
+                    <div class="donthave"> Don't have an account ? </div>
+                    <a href="#" class="signupbuttonn" >
+                        <button class="createanaccountbutton" type="button" onclick="signupsite()">Create an account</button>
                     </a>
                 </div>
+                <hr>
+                <div class="signinbox">
+                    <div class="signintext">Sign In</div>
+                    <br>
+                    <div class="signinemailaddress">
+                        <label for="email">Email address</label><br><br>
+                        <input type="email" id="signinemail"  class="ee" placeholder="   example@abc.com">
+                    </div>
+                    <br>
+                    <div class="signinpassword">
+                        <div class="pw"> 
+                            <div for="password" class="passw">Password </div>
+                            <div class="forgotpassword">Forgot password?</div> 
+                        </div><br>
+                        <input type="password" id="signinpassword"  class="pp"  placeholder="   Enter your password">
+                        <br>
+                        <button class="signinbutton">Sign In</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyrightbox">
+                    <div class="copy"> 
+                        <div class="cc"><i class="fa-regular fa-copyright" style="color: #a7a0a0;"></i></div> 
+                        <div class="cri"> Copyright 2022</div>
+                    </div>
+                    <div class="followicon">
+                        <div class="follow"> Follow us </div>
+                        <div class="icon"> <i class="fa-brands fa-facebook" style="color: #00A025;"></i></div>
+                        <div class="icon"><i class="fa-brands fa-twitter" style="color: #00A025;"></i></div>
+                        <div class="icon"><i class="fa-brands fa-instagram" style="color: #00A025;"></i></div>
+                    </div>
+                </div>
             </div>
-        </form>
-    </div>
+        </div>
+        <div class="outline2" id="siup">
+            <form class="style2">
+                <div class="container">
+                    <br><br>
+                    <div class="createanaccounttext" id="cact">Create an account</div>
+                    <div class="box">
+                        <div class="box1">
+                            <div class="name">Name</div><br>
+                            <input type="text" class="eee" placeholder="   Enter your name"><br><br><br>
+                            <div class="name">Date of birth</div><br>
+                            <input type="date" class="eee" style="color: gray; font-size: 16px;"  ><br><br><br>
+                            <div class="name">Email</div><br>
+                            <input type="email" class="eee" placeholder="   example@abc.com"><br><br><br>
+                        </div>
+                        <div class="box1">
+                            <div class="name">Password</div><br>
+                            <input type="password" class="eee" placeholder="   Enter your password"><br><br><br>
+                            <div class="name">Confirm Password</div><br>
+                            <input type="password" class="eee" placeholder="   Re-enter your password"><br><br><br>
+                        </div>
+                    </div>
+                    <div class="regrs">
+                        <div class="b1"> <button class="regbutton">Register</button></div>
+                        <div class="ortext">or</div>
+                        <a href="#" class="signinbuttonn">
+                            <div class="b1"> <button class="signinbutton2" onclick="signin()">Sign In</button></div>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
 
-    
+<script src ="script.js"></script> 
 </html>
