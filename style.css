@@ -179,16 +179,17 @@ body{
     font-size: 30px;
     color: #00A025;
     text-align: center;
-    margin-top: 40px;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
+
 
 .box
 {
   
     margin-left: 130px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .name
 {
@@ -247,4 +248,12 @@ body{
     margin-bottom: 100px;
     margin-top: 58px;
     margin-left: 20px;
+}
+#siup
+{
+    display: none;
+}
+#siin
+{
+    display: block;
 }
