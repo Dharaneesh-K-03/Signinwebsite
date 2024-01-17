@@ -1,21 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const signinForm = document.querySelector(".signinpage");
-    const signupForm = document.querySelector(".outline2");
-    const signinLink = document.querySelector(".signin-link");
-    const signupLink = document.querySelector(".signup-link");
-    
-    
-    signinLink.addEventListener("click", function (e) {
-      e.preventDefault();
-      signinForm.style.display = "block";
-      signupForm.style.display = "none";
-     
-    });
-  
-    signupLink.addEventListener("click", function (e) {
-      e.preventDefault();
-      signinForm.style.display = "none";
-      signupForm.style.display = "block";
-      
-    });
-  });
+
+function signupsite()
+{
+  var element=document.getElementById("siup");
+  element.style.display="block";
+  var element1=document.getElementById("siin");
+  element1.style.display="none";
+  console.log(element);
+}
+function signin()
+{
+  var element=document.getElementById("siin");
+  element.style.display="block";
+  var element1=document.getElementById("siup");
+  element1.style.display="none";
+}
